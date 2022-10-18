@@ -1,0 +1,127 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  
+    
+}
+*::before,
+*::after{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin: 0;
+    padding: 0;
+    
+}
+
+header {
+    padding: 50px;
+    background-color: black; 
+    color: white;
+    text-align: center;  
+}
+.home{
+    text-decoration: none;
+    color: white;   
+    display: flex;
+    justify-content: center;
+
+}
+.home h1{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.home img {
+    height: 100px;
+}
+.home:hover{
+    color: #56042C;
+}
+.home::after{
+    color: white;
+}
+.home:active{
+    color: white;
+}
+nav {
+    display: flex;
+    flex-direction: row;
+    background-color:black;
+    flex: 100%;
+    align-items: center;
+    justify-content: space-around;
+    height: 45px;
+    border-bottom: 1px solid rgb(216, 214, 214);
+
+
+}
+.barra{
+   position: relative;
+    color: #e2e2e2;
+    padding: 14px 20px;
+    text-decoration: none;
+    font-family: 'Space Mono', monospace;
+    font-size: 16px;
+    letter-spacing: 0.5px;
+
+}
+
+.barra::after {
+    content: "";
+    position: absolute;
+    background-color: #56042C;
+    height: 3px;
+    width: 0;
+    left: 0;
+    bottom: 0%;
+    transition: 0.4s;
+   
+
+}
+
+.barra:hover{
+    color: #56042C;
+}
+.barra:hover::after{
+    width: 100%;
+
+
+}
+footer {
+    padding: 20px;
+    text-align: center;
+    background-color: #56042C;
+}
+.contenedor p{
+    padding-top: 10px;
+}
+.contenedor h2{
+    color: #56042C;
+}
+div.gallery {
+    margin: 5px;
+    border: 1px solid #ccc;
+    float: left;
+    width: 200px;
+  }
+  
+  div.gallery:hover {
+    border: 1px solid #777;
+  }
+  
+  div.gallery img {
+    width: 100%;
+    height: 100px;
+  }
+  
+  div.desc {
+    padding: 15px;
+    text-align: center;
+  }
+  

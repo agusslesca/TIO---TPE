@@ -1,0 +1,19 @@
+.contenedor {
+    display: flex;
+    flex-wrap: wrap;
+
+}
+aside {
+    flex: 30px;
+    background-color: black;
+    padding: 20px;
+    color: white;
+    border-right: 1px solid rgb(216, 214, 214);
+}
+
+section {
+    flex: 70%;
+    background-color: black;
+    padding: 20px;
+    color: white;
+}
